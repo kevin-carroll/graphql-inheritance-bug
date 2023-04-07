@@ -8,10 +8,10 @@
 
         // This Method based field DOES NOT
         // show up on Employee
-        [GraphField("AgeOnDate")]
+        [GraphField("AgeAsOfYear")]
         public int AgeInYear(int year)
         {
-            return year - _hardCodedBirthDay; ;
+            return year - _hardCodedBirthDay;
         }
 
 
